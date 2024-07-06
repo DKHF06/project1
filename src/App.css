@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+header{
+  background-color: rgb(255, 233, 213);
+  height: 100px;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main{
+  width: 1440px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+}
+.CatalogTitle{
+ display: flex;
+ justify-content: space-between;
+}
+.Title{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.Search{
+  display: flex;
+}
+.Products{
+
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 100px;
+  row-gap: 20px;
+}
+footer{
+  background-color: rgb(255, 233, 213);
+  height: 100px;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+.item{
+}
